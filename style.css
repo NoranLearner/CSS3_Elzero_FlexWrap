@@ -1,0 +1,30 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #eee;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.container div{
+    width: 400px;
+    height: 50px;
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px;
+}
+
+.test{
+    display: inline-block;
+}
+
+
